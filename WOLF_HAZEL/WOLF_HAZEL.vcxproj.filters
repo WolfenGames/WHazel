@@ -19,12 +19,24 @@
     <ClInclude Include="src\Wolf_Hazel\Log.h">
       <Filter>Wolf_Hazel</Filter>
     </ClInclude>
+    <ClInclude Include="src\Wolf_Hazel\whpch.h">
+      <Filter>Wolf_Hazel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wolf_Hazel\Event\Event.h">
+      <Filter>Wolf_Hazel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wolf_Hazel\Event\MouseEvent.h" />
+    <ClInclude Include="src\Wolf_Hazel\Event\ApplicationEvent.h" />
+    <ClInclude Include="src\Wolf_Hazel\Event\KeyEvent.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Wolf_Hazel\Application.cpp">
       <Filter>Wolf_Hazel</Filter>
     </ClCompile>
     <ClCompile Include="src\Wolf_Hazel\Log.cpp">
+      <Filter>Wolf_Hazel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wolf_Hazel\whpch.cpp">
       <Filter>Wolf_Hazel</Filter>
     </ClCompile>
   </ItemGroup>

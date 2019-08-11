@@ -1,4 +1,5 @@
 #include "Application.h"
+#include "whpch.h"
 
 namespace Wolf_Hazel
 {
@@ -15,4 +16,3 @@ namespace Wolf_Hazel
 		while (true);
 	}
 }
-

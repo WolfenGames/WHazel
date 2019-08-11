@@ -73,8 +73,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <PrecompiledHeader>Use</PrecompiledHeader>
-      <PrecompiledHeaderFile>WHpch.h</PrecompiledHeaderFile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WH_PLATFORM_WINDOWS;WH_BUILD_DLL;GLFW_INCLUDE_NONE;WH_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>src;vendor\spdlog\include;vendor\GLFW\include;vendor\Glad\include;vendor\imgui;vendor\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
@@ -93,8 +92,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <PrecompiledHeader>Use</PrecompiledHeader>
-      <PrecompiledHeaderFile>WHpch.h</PrecompiledHeaderFile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WH_PLATFORM_WINDOWS;WH_BUILD_DLL;GLFW_INCLUDE_NONE;WH_RELEASE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>src;vendor\spdlog\include;vendor\GLFW\include;vendor\Glad\include;vendor\imgui;vendor\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
@@ -117,8 +115,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Dist|x64'">
     <ClCompile>
-      <PrecompiledHeader>Use</PrecompiledHeader>
-      <PrecompiledHeaderFile>WHpch.h</PrecompiledHeaderFile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WH_PLATFORM_WINDOWS;WH_BUILD_DLL;GLFW_INCLUDE_NONE;WH_DIST;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>src;vendor\spdlog\include;vendor\GLFW\include;vendor\Glad\include;vendor\imgui;vendor\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
@@ -144,11 +141,17 @@
     <ClInclude Include="src\Wolf_Hazel\Application.h" />
     <ClInclude Include="src\Wolf_Hazel\Core.h" />
     <ClInclude Include="src\Wolf_Hazel\EntryPoint.h" />
+    <ClInclude Include="src\Wolf_Hazel\Event\ApplicationEvent.h" />
+    <ClInclude Include="src\Wolf_Hazel\Event\Event.h" />
+    <ClInclude Include="src\Wolf_Hazel\Event\KeyEvent.h" />
+    <ClInclude Include="src\Wolf_Hazel\Event\MouseEvent.h" />
     <ClInclude Include="src\Wolf_Hazel\Log.h" />
+    <ClInclude Include="src\Wolf_Hazel\whpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Wolf_Hazel\Application.cpp" />
     <ClCompile Include="src\Wolf_Hazel\Log.cpp" />
+    <ClCompile Include="src\Wolf_Hazel\whpch.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="vendor\GLFW\GLFW.vcxproj">

@@ -1,5 +1,6 @@
 #include "Log.h"
 #include "spdlog/sinks/stdout_color_sinks.h"
+#include "whpch.h"
 
 namespace Wolf_Hazel {
 

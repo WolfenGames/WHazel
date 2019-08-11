@@ -35,8 +35,8 @@ project "WOLF_HAZEL"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
-	pchheader "WHpch.h"
-	pchsource "WOLF_HAZEL/src/WHpch.cpp"
+	-- pchheader "whpch.h"
+	-- pchsource "Wolf_Hazel/src/whpch.cpp"
 
 	files
 	{
@@ -120,7 +120,7 @@ project "Sandbox"
 
 	links
 	{
-		"WOLF_WOLF_HAZEL"
+		"WOLF_HAZEL"
 	}
 
 	filter "system:windows"
