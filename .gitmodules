@@ -1,3 +1,12 @@
 [submodule ".\\WOLF_HAZEL\\vendor\\spdlog"]
 	path = .\\WOLF_HAZEL\\vendor\\spdlog
 	url = https://github.com/gabime/spdlog.git
+[submodule "WOLF_HAZEL/vendor/spdlog"]
+	path = WOLF_HAZEL/vendor/spdlog
+	url = https://github.com/gabime/spdlog.git
+[submodule "WOLF_HAZEL/vendor/GLFW"]
+	path = WOLF_HAZEL/vendor/GLFW
+	url = https://github.com/WolfenGames/glfw.git
+[submodule "WOLF_HAZEL/vendor/imgui"]
+	path = WOLF_HAZEL/vendor/imgui
+	url = https://github.com/WolfenGames/imgui.git
