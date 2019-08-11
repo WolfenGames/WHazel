@@ -19,7 +19,7 @@
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>WOLF_HAZEL</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
@@ -137,6 +137,8 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="src\Platform\Windows\WindowsInput.h" />
+    <ClInclude Include="src\Platform\Windows\WindowsWindow.h" />
     <ClInclude Include="src\WH.h" />
     <ClInclude Include="src\Wolf_Hazel\Application.h" />
     <ClInclude Include="src\Wolf_Hazel\Core.h" />
@@ -145,11 +147,16 @@
     <ClInclude Include="src\Wolf_Hazel\Event\Event.h" />
     <ClInclude Include="src\Wolf_Hazel\Event\KeyEvent.h" />
     <ClInclude Include="src\Wolf_Hazel\Event\MouseEvent.h" />
+    <ClInclude Include="src\Wolf_Hazel\Input.h" />
     <ClInclude Include="src\Wolf_Hazel\KeyCodes.h" />
     <ClInclude Include="src\Wolf_Hazel\Log.h" />
+    <ClInclude Include="src\Wolf_Hazel\MouseButtonCodes.h" />
+    <ClInclude Include="src\Wolf_Hazel\Window.h" />
     <ClInclude Include="src\whpch.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Platform\Windows\WindowsInput.cpp" />
+    <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp" />
     <ClCompile Include="src\Wolf_Hazel\Application.cpp" />
     <ClCompile Include="src\Wolf_Hazel\Log.cpp" />
     <ClCompile Include="src\whpch.cpp" />

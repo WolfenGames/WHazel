@@ -1,7 +1,7 @@
 #pragma once
 
 #include "Event.h"
-#include "Wolf_Hazel/whpch.h"
+#include "whpch.h"
 
 namespace Wolf_Hazel {
 
