@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Wolf_Hazel">
+      <UniqueIdentifier>{F0719C51-DC29-DE9E-4531-B7FA3108798F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\WH.h" />
+    <ClInclude Include="src\Wolf_Hazel\Application.h">
+      <Filter>Wolf_Hazel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wolf_Hazel\Core.h">
+      <Filter>Wolf_Hazel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wolf_Hazel\EntryPoint.h">
+      <Filter>Wolf_Hazel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wolf_Hazel\Log.h">
+      <Filter>Wolf_Hazel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Wolf_Hazel\Application.cpp">
+      <Filter>Wolf_Hazel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wolf_Hazel\Log.cpp">
+      <Filter>Wolf_Hazel</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
