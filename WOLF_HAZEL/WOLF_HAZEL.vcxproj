@@ -145,13 +145,14 @@
     <ClInclude Include="src\Wolf_Hazel\Event\Event.h" />
     <ClInclude Include="src\Wolf_Hazel\Event\KeyEvent.h" />
     <ClInclude Include="src\Wolf_Hazel\Event\MouseEvent.h" />
+    <ClInclude Include="src\Wolf_Hazel\KeyCodes.h" />
     <ClInclude Include="src\Wolf_Hazel\Log.h" />
-    <ClInclude Include="src\Wolf_Hazel\whpch.h" />
+    <ClInclude Include="src\whpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Wolf_Hazel\Application.cpp" />
     <ClCompile Include="src\Wolf_Hazel\Log.cpp" />
-    <ClCompile Include="src\Wolf_Hazel\whpch.cpp" />
+    <ClCompile Include="src\whpch.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="vendor\GLFW\GLFW.vcxproj">

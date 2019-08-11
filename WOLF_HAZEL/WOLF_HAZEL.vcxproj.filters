@@ -4,6 +4,9 @@
     <Filter Include="Wolf_Hazel">
       <UniqueIdentifier>{F0719C51-DC29-DE9E-4531-B7FA3108798F}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Wolf_Hazel\Event">
+      <UniqueIdentifier>{41A7CB28-2DA0-EA7A-56D2-CFFF422ACA86}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\WH.h" />
@@ -16,18 +19,25 @@
     <ClInclude Include="src\Wolf_Hazel\EntryPoint.h">
       <Filter>Wolf_Hazel</Filter>
     </ClInclude>
+    <ClInclude Include="src\Wolf_Hazel\Event\ApplicationEvent.h">
+      <Filter>Wolf_Hazel\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wolf_Hazel\Event\Event.h">
+      <Filter>Wolf_Hazel\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wolf_Hazel\Event\KeyEvent.h">
+      <Filter>Wolf_Hazel\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wolf_Hazel\Event\MouseEvent.h">
+      <Filter>Wolf_Hazel\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wolf_Hazel\KeyCodes.h">
+      <Filter>Wolf_Hazel</Filter>
+    </ClInclude>
     <ClInclude Include="src\Wolf_Hazel\Log.h">
       <Filter>Wolf_Hazel</Filter>
     </ClInclude>
-    <ClInclude Include="src\Wolf_Hazel\whpch.h">
-      <Filter>Wolf_Hazel</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Wolf_Hazel\Event\Event.h">
-      <Filter>Wolf_Hazel</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Wolf_Hazel\Event\MouseEvent.h" />
-    <ClInclude Include="src\Wolf_Hazel\Event\ApplicationEvent.h" />
-    <ClInclude Include="src\Wolf_Hazel\Event\KeyEvent.h" />
+    <ClInclude Include="src\whpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Wolf_Hazel\Application.cpp">
@@ -36,8 +46,6 @@
     <ClCompile Include="src\Wolf_Hazel\Log.cpp">
       <Filter>Wolf_Hazel</Filter>
     </ClCompile>
-    <ClCompile Include="src\Wolf_Hazel\whpch.cpp">
-      <Filter>Wolf_Hazel</Filter>
-    </ClCompile>
+    <ClCompile Include="src\whpch.cpp" />
   </ItemGroup>
 </Project>

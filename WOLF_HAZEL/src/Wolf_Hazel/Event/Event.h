@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Wolf_Hazel/whpch.h"
+#include "whpch.h"
 #include "Wolf_Hazel/Core.h"
 
 namespace Wolf_Hazel {
